@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy Policy – RK Stream Clipper</title><link rel="stylesheet" href="style.css"></head><body>
+<h1>Privacy Policy</h1>
+<p class="meta">RK Stream Clipper · Effective 30 October 2026</p>
+
+<p>RK Stream Clipper ("the App") is a personal desktop application that cuts short highlight clips from publicly available live-stream
+recordings (the Operator's own streams, and streams of creators who have authorised clipping of their content through clipping
+campaigns) and publishes them to the operator's own TikTok and YouTube accounts. The App is operated by a single
+individual (the "Operator") and is not offered to the public as a service. This policy explains what data the App handles
+and how it is treated.</p>
+
+<h2>Who uses the App</h2>
+<p>The App is used only by the Operator, on the Operator's own computer, with the Operator's own social media accounts.
+It does not have other users, does not provide accounts to anyone else, and does not collect data from the public.</p>
+
+<h2>Data the App receives from TikTok</h2>
+<p>When the Operator connects a TikTok account through TikTok Login Kit, the App receives and stores:</p>
+<ul>
+  <li>an access token and refresh token used to publish videos (scope <code>video.publish</code>);</li>
+  <li>the account's open ID, display name and username (scope <code>user.info.basic</code>), shown in the App's settings page;</li>
+  <li>creator posting settings returned by the Content Posting API, such as the allowed privacy levels, used only to submit a valid post.</li>
+</ul>
+<p>This data is stored in a settings file on the Operator's own computer. It is never transmitted anywhere except to TikTok's
+own API endpoints when publishing a video or refreshing a token.</p>
+
+<h2>Data the App receives from YouTube</h2>
+<p>When the Operator connects a YouTube channel through Google sign-in, the App stores an OAuth token for the
+<code>youtube.upload</code> scope and the channel's title and ID, on the Operator's computer, and uses them only to upload
+videos to that channel.</p>
+
+<h2>Other data the App processes</h2>
+<ul>
+  <li><strong>Stream recordings</strong>: video, audio and the public chat replay of publicly available streams that the Operator has permission to clip, downloaded to the Operator's computer for clipping. Chat replay is used only to find high-energy moments and is not stored beyond the work folder or published.</li>
+  <li><strong>Transcripts and captions</strong>: generated locally from the audio of those recordings.</li>
+  <li><strong>Captions, titles and hashtags</strong>: the clip transcript and title may be sent to Anthropic's Claude API to draft post text. No TikTok or YouTube account data or tokens are included in those requests.</li>
+</ul>
+
+<h2>What the App does not do</h2>
+<ul>
+  <li>It does not collect, read or store data about other TikTok or YouTube users, viewers or followers.</li>
+  <li>It does not sell, rent or share any data with third parties.</li>
+  <li>It does not use advertising, analytics or tracking.</li>
+  <li>It does not read direct messages, comments, or private content from any platform.</li>
+</ul>
+
+<h2>Retention and deletion</h2>
+<p>Tokens and account details remain on the Operator's computer until the Operator presses Disconnect in the App, which deletes
+them, or revokes the App's access in TikTok or Google account settings. Downloaded recordings and generated clips can be deleted
+at any time from the App's work folder.</p>
+
+<h2>Security</h2>
+<p>All data stays on the Operator's computer. Connections to TikTok, Google and Anthropic use HTTPS.</p>
+
+<h2>Children</h2>
+<p>The App is not directed at, and is not used by, anyone under 18.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will be published at this address with a new effective date.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy can be sent to the Operator at: <strong>[YOUR CONTACT EMAIL]</strong></p>
+
+<p class="meta"><a href="terms.html">Terms of Service</a></p>
+</body></html>
