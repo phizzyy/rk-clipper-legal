@@ -6,7 +6,8 @@ It is a separate Git repository from `phizzyy/rk-stream-clipper`.
 - Use a dedicated branch; preserve unrelated work. Validate changed pages and links.
 - Commit and push intended changes and open or update a PR with validation results.
 - Claude (the owner's Claude Code session for RK Stream Clipper) owns the code for both
-  repositories (owner direction, 22 Nov 2026) and merges PRs into `main`.
+  repositories (owner direction, 20 and 22 Nov 2026) and merges PRs into `main`. Log every
+  merge in the clipper repository's REVIEW-LOG.md.
 - Every change gets an independent review first: a separate reviewer agent that did not
   write it reads the diff, checks validation, and returns PASS or FAIL against the exact
   head SHA. Fix must-fix findings and review the new head again; new commits need another
